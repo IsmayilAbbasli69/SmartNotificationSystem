@@ -1,0 +1,31 @@
+{
+  "name": "hbtn_task",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "mocha tests/notify.test.js --exit"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/IsmayilAbbasli69/SmartNotificationSystem.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "type": "module",
+  "bugs": {
+    "url": "https://github.com/IsmayilAbbasli69/SmartNotificationSystem/issues"
+  },
+  "homepage": "https://github.com/IsmayilAbbasli69/SmartNotificationSystem#readme",
+  "dependencies": {
+    "express": "^5.2.1",
+    "redis": "^6.1.0",
+    "redis-server": "^1.2.2"
+  },
+  "devDependencies": {
+    "chai": "^6.2.2",
+    "mocha": "^8.1.3",
+    "supertest": "^7.2.2"
+  }
+}
